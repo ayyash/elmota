@@ -1,0 +1,16 @@
+{
+	"name": "elmota",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx eleventy",
+		"start": "eleventy --serve",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"shut": "^6.2.2"
+	}
+}
