@@ -4,13 +4,17 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx eleventy",
+		"build": "eleventy",
 		"start": "eleventy --serve",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@prismicio/client": "^5.1.0",
+		"del": "^6.0.0",
+		"dotenv": "^10.0.0",
+		"prismic-dom": "^2.2.6",
 		"shut": "^6.2.2"
 	}
 }

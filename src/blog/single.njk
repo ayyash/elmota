@@ -1,0 +1,16 @@
+---
+permalink: /articles/{{ post.slug }}/
+pagination:
+  data: posts.articles
+  size: 1
+  alias: post
+eleventyComputed:
+  title: "{{ post.title }}"
+---
+
+<h3>{{ post.title }} </h3> 
+<pre class="w100 text-nowrap">
+
+	{{ post | json }}
+</pre>
+{{ post.content | dom | safe }}

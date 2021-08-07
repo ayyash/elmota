@@ -6,5 +6,22 @@ layout: base.njk
 	<div class="container">
 		hello elmota.
 		<span class="content"></span>
+
+		<div class="breath">
+			url: {{ site.base_url }} and again from modules {{ site.baseUrl}}
+			<ul class="rowlist">
+				{% for post in posts.articles %}
+				<li> 
+					{% if post.image %}
+					<img class="c-3" src="{{post.image}}" alt="Main image">
+					{% endif  %}
+					<a href="/articles/{{post.slug}}">
+						{{post.title}} - {{ post.subtitle }}
+					</a>
+					{{ post.date }}
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </div>

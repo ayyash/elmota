@@ -1,0 +1,148 @@
+{
+	"page": 1,
+	"results_per_page": 20,
+	"results_size": 1,
+	"total_results_size": 1,
+	"total_pages": 1,
+	"next_page": null,
+	"prev_page": null,
+	"results": [
+		{
+			"id": "YQwH8xIAACYAH7Gi",
+			"uid": "the-firset-prismic-post",
+			"url": null,
+			"type": "post",
+			"href": "https://sekrab.cdn.prismic.io/api/v2/documents/search?ref=YQwIexIAACcAH7P8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YQwH8xIAACYAH7Gi%22%29+%5D%5D",
+			"tags": [],
+			"first_publication_date": "2021-08-05T15:49:15+0000",
+			"last_publication_date": "2021-08-05T15:49:15+0000",
+			"slugs": [
+				"hello-elmota"
+			],
+			"linked_documents": [],
+			"lang": "en-us",
+			"alternate_languages": [],
+			"data": {
+				"title": [
+					{
+						"type": "heading1",
+						"text": "Hello elmota",
+						"spans": []
+					}
+				],
+				"sub_title": "The firset prismic post",
+				"publish_date": "2021-08-05",
+				"main_image": {
+					"dimensions": {
+						"width": 2048,
+						"height": 1536
+					},
+					"alt": "jumping",
+					"copyright": null,
+					"url": "https://images.prismic.io/slicemachine-blank/6b2bf485-aa12-44ef-8f06-dce6b91b9309_dancing.png?auto=compress,format"
+				},
+				"content": [
+					{
+						"type": "paragraph",
+						"text": "Here we go",
+						"spans": []
+					},
+					{
+						"type": "heading2",
+						"text": "Can I make a difference?",
+						"spans": []
+					},
+					{
+						"type": "embed",
+						"oembed": {
+							"type": "video",
+							"embed_url": "https://www.youtube.com/watch?v=A_l0qrPUJds&list=PL_Ug_PAVTKrXYYA_9fSkSB5vCt3n3r50B&index=44&t=11195s",
+							"title": "JAMstack Course - Build websites that are simpler, faster, and more secure",
+							"provider_name": "YouTube",
+							"thumbnail_url": "https://i.ytimg.com/vi/A_l0qrPUJds/hqdefault.jpg",
+							"provider_url": "https://www.youtube.com/",
+							"author_name": "freeCodeCamp.org",
+							"author_url": "https://www.youtube.com/c/Freecodecamp",
+							"height": 113,
+							"width": 200,
+							"version": "1.0",
+							"thumbnail_height": 360,
+							"thumbnail_width": 480,
+							"html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/A_l0qrPUJds?start=11195&feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+						}
+					},
+					{
+						"type": "o-list-item",
+						"text": "not much, but the embed",
+						"spans": []
+					},
+					{
+						"type": "o-list-item",
+						"text": "is very powerful",
+						"spans": []
+					},
+					{
+						"type": "o-list-item",
+						"text": "can i insert code?",
+						"spans": []
+					},
+					{
+						"type": "preformatted",
+						"text": "<h1>something</h1>",
+						"spans": []
+					},
+					{
+						"type": "paragraph",
+						"text": "looks like out of the box. What else?",
+						"spans": []
+					},
+					{
+						"type": "image",
+						"url": "https://images.prismic.io/slicemachine-blank/dcea6535-f43b-49a7-8623-bf281aaf1cb2_roller-skating.png?auto=compress,format&rect=0,232,2048,372&w=1100&h=200",
+						"alt": "How much can i control in terms of content",
+						"copyright": null,
+						"dimensions": {
+							"width": 1100,
+							"height": 200
+						}
+					}
+				],
+				"the_full_title": [
+					{
+						"type": "heading1",
+						"text": "Detailed page",
+						"spans": []
+					}
+				],
+				"complete_content": [
+					{
+						"type": "paragraph",
+						"text": "I dont undersatnd ",
+						"spans": []
+					},
+					{
+						"type": "heading4",
+						"text": "The second tab",
+						"spans": []
+					}
+				],
+				"external_reference": {
+					"link_type": "Web",
+					"url": "https://www.11ty.dev/docs/config/"
+				},
+				"references": [
+					{
+						"reference": {
+							"link_type": "Document"
+						},
+						"posticon": {
+							"link_type": "Any"
+						}
+					}
+				]
+			}
+		}
+	],
+	"version": "809503c",
+	"license": "All Rights Reserved"
+}
